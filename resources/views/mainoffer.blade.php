@@ -40,9 +40,9 @@
 
                 
                 <div class="flex flex-col mt-4">
-                    <div class="text-gray-700 text-center px-4 py-2 m-2">
+                    {{-- <div class="text-gray-700 text-center px-4 py-2 m-2">
                         <x-button class="bg-blue-500 rounded-lg">依頼</x-button>
-                    </div>
+                    </div> --}}
                 </div>
 
                 <!-- 戻るボタン -->
