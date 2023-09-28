@@ -1,12 +1,14 @@
 <x-guest-layout>
     <!-- タイトル「ECHO STATION」を追加 -->
-    <h1 class="text-center text-6xl font-bold mb-6">ECHO STATION</h1>
+    <h1 class="text-center text-20xl font-bold mb-6">ECHO STATION 登録画面</h1>
+
+    
 
     <!-- 依頼医用のregisterとloginボタン -->
-    <div class="mb-4">
+    {{-- <div class="mb-4">
         <span class="text-lg">依頼医用　　　　：</span>
       
-        <a href="{{ route('register') }}" class="px-4 py-2 bg-blue-500 text-black rounded mr-2">新規登録</a>
+        <a href="{{ route('register') }}" class="px-4 py-2 bg-blue-500 text-black rounded mr-2">新規登録</a> --}}
         {{-- <a href="{{ route('login') }}" class="px-4 py-2 bg-blue-500 text-black rounded">Log in</a> --}}
 
 
@@ -14,13 +16,13 @@
 
     <!-- 受託医（技師）用のregisterとloginボタン -->
     <div class="mb-4">
-        <span class="text-lg">受託医（技師）用：</span>
+         <span class="text-lg"></span> 
        
         <a href="{{ route('register') }}" class="px-4 py-2 bg-blue-500 text-black rounded mr-2">新規登録</a>
-        
-        {{-- <a href="{{ route('login') }}" class="px-4 py-2 bg-red-500 text-black rounded">Log in</a> --}}
+         
+         {{-- <a href="{{ route('login') }}" class="px-4 py-2 bg-red-500 text-black rounded">Log in</a> --}}
 
-    </div>
+    </div> 
 
     <!-- その他のボタン -->
     <div class="mb-4 grid gap-4">
