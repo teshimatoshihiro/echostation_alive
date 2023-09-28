@@ -3,13 +3,13 @@
     <h1 class="text-center text-6xl font-bold mb-6">ECHO STATION</h1>
 
     <!--受託アクティブ表示 -->
-    <div class="mb-4 grid gap-4">
+    {{-- <div class="mb-4 grid gap-4">
         <button class="px-4 py-2 bg-red-500 text-white rounded w-full">受託アクティブ　58人</button>
     </div>
 <br>
 <br>
 <br>
-<br>
+<br> --}}
 
     <!-- その他のボタン -->
     <div class="mb-4 grid gap-4">
