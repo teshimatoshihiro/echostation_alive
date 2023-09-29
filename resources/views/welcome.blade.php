@@ -5,10 +5,10 @@
     
 
     <!-- 依頼医用のregisterとloginボタン -->
-    {{-- <div class="mb-4">
-        <span class="text-lg">依頼医用　　　　：</span>
+    <div class="mb-4">
+        {{-- <span class="text-lg">依頼医用　　　　：</span>
       
-        <a href="{{ route('register') }}" class="px-4 py-2 bg-blue-500 text-black rounded mr-2">新規登録</a> --}}
+        <a href="{{ route('register') }}" class="px-4 py-2 bg-blue-500 text-black rounded mr-2">新規登録</a> --}} 
         {{-- <a href="{{ route('login') }}" class="px-4 py-2 bg-blue-500 text-black rounded">Log in</a> --}}
 
 
